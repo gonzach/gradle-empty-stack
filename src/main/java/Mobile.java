@@ -1,4 +1,4 @@
-public abstract class Mobile {
+public class Mobile {
     private String name;
     private String color;
     private String brand;
