@@ -2,6 +2,15 @@ public class Mobile {
     private String name;
     private String color;
     private String brand;
+    private int message_limit = 5;
+
+    public int getMessage_limit() {
+        return message_limit;
+    }
+
+    public void setMessage_limit(int message_limit) {
+        this.message_limit = message_limit;
+    }
 
     public String getName() {
         return name;

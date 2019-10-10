@@ -7,11 +7,12 @@ public class App {
     }
 
     public static void main(String[] args) {
-//        System.out.println(
-//                new App().getGreeting());
         Mobile mobile = new Mobile();
         mobile.setName("Android");
         mobile.call("kjjjjjjjjjjj");
-//        mobile.PrintInfo();
+        mobile.PrintInfo();
+
+        Android android = new Android();
+        android.call("kkk");
     }
 }
