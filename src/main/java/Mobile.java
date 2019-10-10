@@ -2,7 +2,6 @@ public class Mobile {
     private String name;
     private String color;
     private String brand;
-    private String message;
 
     public String getName() {
         return name;
@@ -28,12 +27,6 @@ public class Mobile {
         this.brand = brand;
     }
 
-    public String getMessage() {
-        return message;
-    }
-    public void setMessage(String message) {
-        this.message = message;
-    }
     public void call(String message){
         System.out.println("Message: " + message);
     }
